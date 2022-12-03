@@ -1,0 +1,267 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+}
+
+section{
+    padding: 10px 0 8px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.masuk{
+    padding: 20px 80px;
+}
+
+
+/*=============== HEADER & NAV ===============*/
+.header {
+    width: 100%;
+    background: white;
+    box-shadow: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+  
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+}
+.nav__logo span {
+    color: rgb(255,181,102);
+}
+.nav__menu {
+    font-size: 30px;
+    color: rgb(255,181,102);
+}
+
+/*=============== HEADER & NAV ===============*/
+.container1 {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+}
+.header {
+    width: 100%;
+    background: cornflowerblue;
+    box-shadow: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+  
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-left: 180px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+}
+.nav__logo span {
+    color: black;
+}
+.nav__menu {
+    font-size: 30px;
+    color: white;
+}
+
+/*=============== Toggle Menu ===============*/
+.overlay {
+    
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: cornflowerblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.topoverlay{
+    display: flex;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+    text-align: left;
+    margin-top: 100px;
+}
+  
+.overlay a {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.logout a:hover {
+    color: black;
+}
+
+.logout a {
+    position: absolute;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.overlay-content a:hover {
+    color: black;
+}
+
+.closebtn i:hover{
+    color: black;
+}
+
+.overlay .closebtn {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 50px;
+}
+
+.overlay .nav__logo1 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+/*=============== LOGIN ===============*/
+body#login{
+    background: white;
+    
+}
+
+.login{
+    margin-top: 90px;
+    max-width: 650px;
+    background: cornflowerblue;
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: #00000059 0px 5px 15px;
+    padding: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.inputlogin{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px; 
+    background: white;
+    color: black;
+    margin: auto;
+    border-color: cornflowerblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logo-login {
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.logo-login span{
+    color: black;
+}
+
+.gambar-logo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.gambar-logo span{
+    color: black;
+}
+.bxs-user-plus{
+    color: black;
+    font-size: 25px;
+}
+.isi-login{
+    width: auto;
+    height: 35px;
+    font-size: 15px;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.inputfield{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.button-login{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    display: none;
+}
+
+.pilihrole{
+    display: none;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 15px;
+}

@@ -1,0 +1,220 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(41, 39, 39);
+}
+
+section{
+    padding: 10px 0 8px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+}
+
+/*=============== Login ===============*/
+
+.masuk{
+    padding: 20px 80px;
+}
+
+
+/*=============== HEADER & NAV ===============*/
+.header {
+    width: 100%;
+    background: rgb(41, 39, 39);
+    box-shadow: rgb(255,181,102) 0 1px 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+  
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bxs-watch{
+    color: rgb(255,181,102);
+}
+.nav__logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+}
+.nav__logo span {
+    color: rgb(255,181,102);
+}
+.nav__menu {
+    font-size: 30px;
+    color: rgb(255,181,102);
+}
+
+/*=============== Toggle Menu ===============*/
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(54, 50, 50);
+    background-color: rgb(54, 50, 50, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+  
+.topoverlay{
+    display: flex;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-top: 100px;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.login a {
+    position: absolute;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(41, 39, 39);
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.logout a {
+    position: absolute;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.overlay a:hover {
+    color: rgb(255,181,102);
+}
+  
+.overlay .closebtn {
+    top: 20px;
+    text-align: left;
+    font-size: 50px;
+}
+
+.overlay .nav__logo1 {
+    top: 20px;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-top: 13px;
+}
+  
+@media screen and (max-width: 800px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+    }
+    .overlay .nav__logo1{
+        display: none;
+    }
+}
+
+
+/*=============== SEARCH ===============*/
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+  
+.searchTerm {
+    width: 100%;
+    border: 2px solid rgb(255,181,102);
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+  
+.searchTerm:focus{
+    color: rgb(255,181,102);
+}
+  
+.searchButton{
+    width: auto;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid rgb(255,181,102);
+    background: rgb(255,181,102);
+    text-align: center;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+header .wrap{
+    width: 18%;
+
+}
+
+.daftar-transaksi{
+    margin-top: 90px;
+    max-width: 1300px;
+    background: rgb(54, 50, 50);
+    margin: 100px auto;
+    box-shadow: #00000059 0px 5px 15px;
+    padding: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.tabel-transaksi .atas{
+    color: rgb(54, 50, 50);
+    background-color: rgb(255,181,102);
+}
+
+.daftar-transaksi td{
+    text-align: center;
+}
+
+.tabel-transaksi{
+    width: 100%;
+    border: white;
+    color: white;
+}
